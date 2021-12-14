@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>BMI calculator</title>
+    <style>
+      body {
+        margin: 0px;
+        padding: 0px;
+        background: url("bg1.jpg");
+        background-size: cover;
+        color: whitesmoke;
+      }
+      .cont {
+        text-align: center;
+        display: block;
+        margin: 112px auto;
+        width: 324px;
+        /* border: 2px solid rgb(121, 83, 83); */
+        border-radius: 10px;
+        font-size: 16px;
+        font-family: cursive;
+        font-weight: 1000;
+        color: black;
+      }
+      .left {
+        /* border: 2px solid red; */
+        display: inline-block;
+        position: absolute;
+        left: 35px;
+        top: 20px;
+        margin: ;
+      }
+      .left img {
+        width: 135px;
+        filter: invert(10%);
+      }
+      .mid {
+        /* border: 2px solid green; */
+        display: block;
+        width: 50%;
+        margin: 0px auto;
+      }
+      .navbar li {
+        display: inline-block;
+      }
+      .navbar li a {
+        color: orangered;
+        text-decoration: none;
+        padding: 35px 23px;
+        font-family: cursive;
+      }
+      .navbar li a:hover,
+      .navbar li a.active {
+        text-decoration: underline 5px rgb(99, 204, 85);
+        color: grey;
+      }
+      .glow {
+        font-size: 80px;
+        color: #fff;
+        text-align: center;
+        animation: glow 1s ease-in-out infinite alternate;
+      }
+
+      @-webkit-keyframes glow {
+        from {
+          text-shadow: 0 0 10px #fff, 0 0 20px #fff, 0 0 30px #2a00e6,
+            0 0 40px #5100e6, 0 0 50px #4500e6, 0 0 60px #4500e6,
+            0 0 70px #6b00e6;
+        }
+
+        to {
+          text-shadow: 0 0 20px #fff, 0 0 30px #ff4da6, 0 0 40px #ff4da6,
+            0 0 50px #ff4da6, 0 0 60px #ff4da6, 0 0 70px #ff4da6,
+            0 0 80px #ff4da6;
+        }
+      }
+      .lol {
+        color: black;
+      }
+    </style>
+  </head>
+  <body>
+    <header>
+      <div class="left">
+        <a href="index.html">
+          <img src="logoweb.png" alt="loading" />
+        </a>
+        <div class="lol">Vaibhav's Fitness</div>
+      </div>
+      <div class="mid">
+        <ul class="navbar">
+          <li><a href="index.html" class="active">Home</a></li>
+          <li><a href="aboutus.html">About Us</a></li>
+          <li><a href="bmi.html">BMI Calculator</a></li>
+          <li><a href="contact.html"> Contact Us</a></li>
+        </ul>
+      </div>
+    </header>
+    <div class="cont">
+      <h1 class="glow">Coming Soon ....</h1>
+    </div>
+  </body>
+</html>

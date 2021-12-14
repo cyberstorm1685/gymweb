@@ -1,0 +1,112 @@
+* {
+}
+body {
+  margin: 0px;
+  padding: 0px;
+  background: url(bg.jpg);
+  background-size: cover;
+  color: whitesmoke;
+  background-repeat: no-repeat;
+}
+.left {
+  /* border: 2px solid red; */
+  display: inline-block;
+  position: absolute;
+  left: 35px;
+  top: 20px;
+  margin: ;
+}
+.left img {
+  width: 135px;
+  filter: invert(10%);
+}
+.left div {
+  text-align: center;
+  color: black;
+  font-size: 15px;
+}
+.mid {
+  /* border: 2px solid green; */
+  display: block;
+  width: 50%;
+  margin: 20px auto;
+}
+.right {
+  position: absolute;
+  right: 35px;
+  top: 20px;
+  /* border: 2px solid yellow; */
+  display: inline-block;
+}
+.navbar li {
+  display: inline-block;
+}
+.navbar li a {
+  color: orangered;
+  text-decoration: none;
+  padding: 35px 23px;
+  font-family: cursive;
+}
+.navbar li a:hover,
+.navbar li a.active {
+  text-decoration: underline 5px rgb(99, 204, 85);
+  color: grey;
+}
+.btn {
+  margin: 0px 9px;
+  background-color: rgb(163, 162, 162);
+  border: 2px solid black;
+  border-radius: 10px;
+  padding: 3px;
+
+  cursor: pointer;
+}
+.btn:hover {
+  background-color: rgb(124, 87, 87);
+}
+.cont {
+  border: 2px solid rgb(160, 160, 160);
+  margin: 115px 110px;
+  padding: 10px 25px;
+  width: 35%;
+  border-radius: 15px;
+}
+.deta input {
+  text-align: center;
+  display: block;
+  margin: 2px auto;
+  width: 324px;
+  border: 2px solid grey;
+  border-radius: 10px;
+  font-size: 16px;
+  font-family: cursive;
+  font-weight: 1000;
+}
+.gen {
+  display: inline-block;
+
+  padding: 4px 7px;
+  margin: 11px;
+  margin-left: 144px;
+}
+.cont h1 {
+  text-align: center;
+  color: rgb(58, 58, 58);
+  font-family: cursive;
+  font-weight: 2500;
+}
+.cont button {
+  display: block;
+  margin: auto;
+  width: 50%;
+  border-radius: 10px;
+}
+
+.cont button:hover {
+  cursor: pointer;
+  background-color: rgb(116, 76, 76);
+}
+.right button a {
+  color: black;
+  text-decoration-style: none;
+}
